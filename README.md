@@ -2,6 +2,7 @@
 
 This game is inspired by the street fighter video game franchise. The goal is to knock out your opponent in a single round. The first character to defeat their opponent wins the victory.
 
+Made in C++ with SFML
 
 
 ## Gameplay
@@ -12,9 +13,9 @@ This game is inspired by the street fighter video game franchise. The goal is to
 
 ## Features
 
-- **Character Selection**: Choose your fighter and your opponent’s fighter before each match.
-- **Smooth Animations**: Each character features multiple animated moves, including attacks, blocks, and special moves.
-- **Health and Energy Bars**: Real-time feedback on each player's status during combat.
+- **Character Selection**: You can choose your fighter and your opponent's fighter from a roster of five unique characters.
+- **Animations**: Each character features multiple animated moves, including attacks, blocks, and special moves.
+- **Health and energy Management**: Both players start with a default amount of energy. Energy is gained by successfully landing punches on the opponent—each punch increases your energy. However, blocking attacks comes at a cost: the longer you hold a block, the more your energy decreases.
 
 ### Menu System
 
@@ -35,7 +36,6 @@ Note : SFML is already in the project so you don't need to download SFML
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/helha-fighter.git
-
 2. Open   ```pGroupeA02.cbp``` with codeblocks
 
 
@@ -55,9 +55,8 @@ Note : SFML is already in the project so you don't need to download SFML
 
 - **Schoolgirl Sidescroller Sprite** by ShatteredReality. Available on Itch.io:  
   [Schoolgirl Sidescroller Sprite](https://shatteredreality.itch.io/schoolgirl) (link deleted D:)
+- The PALERMO character was made by Albert Voiturier.
 
-
-documentation SFML : https://www.sfml-dev.org/documentation/2.6.1/index.php
 
 ## Screenshots
 ### Main menu
@@ -78,4 +77,12 @@ documentation SFML : https://www.sfml-dev.org/documentation/2.6.1/index.php
 
 
 
-- **Character Abilities**: Each character comes with unique animations and fighting moves that impact the flow of the battle.
+
+
+documentation SFML : https://www.sfml-dev.org/documentation/2.6.1/index.php
+## Contributors
+
+Special thanks to the team:
+
+- [**AlbertDeTerre**](https://github.com/AlbertDeTerre)
+- [**hadrien007**](https://github.com/hadrien007)
