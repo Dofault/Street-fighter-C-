@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="pGroupeA02" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/pGroupeA02" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="SFML-2.6.1/include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+					<Add library="sfml-audio" />
+					<Add directory="SFML-2.6.1/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/pGroupeA02" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+					<Add library="sfml-audio" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="cb.bmp" />
+		<Unit filename="include/AboutMenu.h" />
+		<Unit filename="include/Animation.h" />
+		<Unit filename="include/AnimationManager.h" />
+		<Unit filename="include/AnimationType.h" />
+		<Unit filename="include/AudioOptionMenu.h" />
+		<Unit filename="include/Character.h" />
+		<Unit filename="include/CharacterSelectionMenu.h" />
+		<Unit filename="include/CharacterType.h" />
+		<Unit filename="include/CharacterView.h" />
+		<Unit filename="include/GameArena.h" />
+		<Unit filename="include/KeybindingOptionMenu.h" />
+		<Unit filename="include/MainMenu.h" />
+		<Unit filename="include/Menu.h" />
+		<Unit filename="include/MenuManager.h" />
+		<Unit filename="include/OptionMenu.h" />
+		<Unit filename="include/PauseMenu.h" />
+		<Unit filename="include/RessourceManager.h" />
+		<Unit filename="include/VideoOptionMenu.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Modele/AnimationType.cpp" />
+		<Unit filename="src/Modele/Character.cpp" />
+		<Unit filename="src/Modele/CharacterType.cpp" />
+		<Unit filename="src/View/AboutMenu.cpp" />
+		<Unit filename="src/View/Animation.cpp" />
+		<Unit filename="src/View/AnimationManager.cpp" />
+		<Unit filename="src/View/AudioOptionMenu.cpp" />
+		<Unit filename="src/View/CharacterSelectionMenu.cpp" />
+		<Unit filename="src/View/CharacterView.cpp" />
+		<Unit filename="src/View/GameArena.cpp" />
+		<Unit filename="src/View/KeybindingOptionMenu.cpp" />
+		<Unit filename="src/View/MainMenu.cpp" />
+		<Unit filename="src/View/Menu.cpp" />
+		<Unit filename="src/View/MenuManager.cpp" />
+		<Unit filename="src/View/OptionMenu.cpp" />
+		<Unit filename="src/View/PauseMenu.cpp" />
+		<Unit filename="src/View/RessourceManager.cpp" />
+		<Unit filename="src/View/VideoOptionMenu.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

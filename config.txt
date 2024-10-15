@@ -1,0 +1,12 @@
+Accroupi2 S
+Defendre2 R
+Droite2 D
+Gauche2 Q
+Defendre1 M
+Accroupi1 Down
+Attaquer1 P
+Droite1 Right
+Attaquer2 E
+Sauter2 Z
+Gauche1 Left
+Sauter1 Up
